@@ -1,0 +1,85 @@
+/* General Page Styling */
+body {
+  background-color: #fff8e1;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #d35400;
+  font-size: 44px;
+  background-color: #f9e79f;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #2c3e50;
+  font-size: 28px;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+/* Paragraphs */
+p {
+  color: #4a235a;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #6e2c00;
+  font-style: italic;
+}
+
+/* Image */
+.food-img {
+  width: 600px;
+  border: 6px solid #d35400;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+/* ---------- RESPONSIVENESS ---------- */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 36px;
+  }
+  .food-img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+    padding: 10px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .food-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
